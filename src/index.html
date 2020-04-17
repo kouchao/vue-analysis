@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vue-analysis</title>
+  </head>
+  <body>
+    <p>模拟vue的updateChildren</p>
+    <p>请不要重复，每一项val将会作为key</p>
+    <input value="1,2,3,4,5" class="old-input" placeholder="老的数组，用英文逗号隔开" />
+    <input value="1,2,3,6" class="new-input" placeholder="新的数组，用英文逗号隔开" />
+    <div class="buttons">
+      <button class="update">更新孩子</button>
+      <button class="next">下一步</button>
+      <button class="auto">自动</button>
+      <button class="clear">清除日志</button>
+    </div>
+
+    <div class="plan">
+      <div class="show">
+        <div>
+          真实dom：
+          <div class="dom list"></div>
+        </div>
+        <div>
+          oldCh：
+          <div class="old list"></div>
+        </div>
+        <div>
+          newCh：
+          <div class="new list"></div>
+        </div>
+      </div>
+      <div class="log"></div>
+    </div>
+  </body>
+</html>
