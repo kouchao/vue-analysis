@@ -1,6 +1,8 @@
 ## 介绍
 可视化模拟vue的updateChildren
 
+<img src="https://raw.githubusercontent.com/kouchao/vue-analysis/master/img/20200417151547.jpg">
+
 ## 安装
 ```
 npm i 
